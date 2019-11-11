@@ -1,0 +1,13 @@
+// List
+GET http://localhost:3434/users
+
+###
+
+// Create
+POST http://localhost:3434/user HTTP/1.1
+content-type: application/json
+
+{
+    "name": "sample",
+    "email": "sample@email.com"
+}

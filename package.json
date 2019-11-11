@@ -1,0 +1,21 @@
+{
+  "name": "hello-heroku",
+  "version": "1.0.0",
+  "main": "server.js",
+  "repository": "git@github.com:Marhc/hello-heroku.git",
+  "author": "marhc <marciohbc@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "sequelize": "^5.21.2",
+    "sqlite3": "^4.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4",
+    "sequelize-cli": "^5.5.1"
+  }
+}
